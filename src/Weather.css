@@ -3,8 +3,12 @@
     border:1px solid #dadde1;
     border-radius: 5px;
     padding: 15px;
-    color:rgb(112, 117, 115);
-    background-color: rgb(245, 248, 250);
+    color:rgb(237, 248, 244);
+    background: linear-gradient(
+    170.9deg,
+    rgb(3, 195, 195) 0.3%,
+    rgb(37, 84, 112) 87.8%
+  );
 }
 
 .Weather h1{
@@ -40,7 +44,7 @@ line-height: 19px;
 
 .Weather .temperature{
      font-weight: bold;
-     color:rgb(33, 33, 33);
+     color:rgb(236, 243, 245);
      font-size:64px;
      line-height: 64px;
      font-weight: 400;
@@ -49,7 +53,7 @@ line-height: 19px;
 }
 
 .Weather unit{
-    color: rgb(33, 33, 33);
+    color: rgb(235, 225, 225);
     font-size: 16px;
     font-weight: 400;
     position: relative;
